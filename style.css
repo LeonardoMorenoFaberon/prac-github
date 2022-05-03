@@ -18,7 +18,7 @@ body{
 header{
     min-height: 10px;
     height: var(--headerHeigh);
-    background-color: red;
+    background-color: rgb(77, 9, 9);
     position: relative;
 }
 
@@ -64,9 +64,9 @@ main{
 .mainAsideLeft{ 
     height: 9em;
     width: 23rem;
-    background-color: red;
+    background-color: rgb(77, 9, 9);
     margin-top: 1em;
-    /* width: 600px; */
+    color:blanchedalmond;
 }
 
 .sectDer{
