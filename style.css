@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root{
+    --logoHeigth : 50px;
+    --headerHeigh : 80px;
+    --leftLogo:calc(var(--logoHeigth)/4);
+    --heightNavUl: fit-content;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    min-height: 10px;
+    height: var(--headerHeigh);
+    background-color: red;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    /* height: var(--logoHeigth); */
+    height: 50%;
+    width: var(--logoHeigth);
+    background-color: green;
+    top: 25%;
+    left: var(--leftLogo);
+    display: inline-block;
+}
+
+.naUl{
+    position: absolute;
+    height: 50%;
+    width: 500px;
+    top: 25%;
+    left : 50%;
+    background-color: violet;
+    list-style-type: none;
+    display: table;
+}
+
+.navUlLi{
+    display: table-cell;
+    vertical-align:middle;
+    /* background-color: brown; */
+    margin-left: 2em;
+    padding-left: 1em;
+}
+
+main{
+    background-color: brown;
+    position: relative;
+}
+
+.asideIzq{
+    /* width: 100px; */
+}
+
+.mainAsideLeft{ 
+    height: 9em;
+    width: 23rem;
+    background-color: red;
+    margin-top: 1em;
+    /* width: 600px; */
+}
+
+.sectDer{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+}
